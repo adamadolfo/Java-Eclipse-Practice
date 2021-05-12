@@ -23,7 +23,7 @@ public class SpeedConverter {
 		if (speed == -1) {
 			System.out.println("Invalid Value");
 		} else {	
-			System.out.println(kilometersPerHour + "km/h = " + speed + "mi/h.");
+			System.out.println(kilometersPerHour + " km/h = " + speed + " mi/h.");
 		}
 		
 	}
