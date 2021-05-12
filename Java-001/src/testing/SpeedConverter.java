@@ -3,27 +3,26 @@ package testing;
 public class SpeedConverter {
 	public static void main(String[] args) {
 		
-		double kilometersPerHour = 90;
+		double kilometersPerHour = 10;
 		
-//		System.out.println(toMilesPerHour(kilometersPerHour));
 		printConversion(kilometersPerHour);
 		
 	}
 	
-//	public static long toMilesPerHour(double kilometersPerHour) {
-//		if (kilometersPerHour < 0) {
-//			return -1;
-//		}
-//		
-//		return 
-//			
-//	}
+	public static long toMilesPerHour(double kilometersPerHour) {
+		if (kilometersPerHour < 0) {
+			return -1;
+		}
+		
+		return (long) Math.round(kilometersPerHour / 1.609);
+			
+	}
 	
 	public static void printConversion(double kilometersPerHour) {
-		if (kilometersPerHour < 0) {
+		long speed = toMilesPerHour(kilometersPerHour);
+		if (speed == -1) {
 			System.out.println("Invalid Value");
-		} else {
-			long speed = Math.round(kilometersPerHour / 1.609);
+		} else {	
 			System.out.println(kilometersPerHour + "km/h = " + speed + "mi/h.");
 		}
 		
