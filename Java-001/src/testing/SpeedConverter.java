@@ -1,14 +1,7 @@
 package testing;
 
 public class SpeedConverter {
-	public static void main(String[] args) {
-		
-		double kilometersPerHour = 10;
-		
-		printConversion(kilometersPerHour);
-		
-	}
-	
+
 	public static long toMilesPerHour(double kilometersPerHour) {
 		if (kilometersPerHour < 0) {
 			return -1;
