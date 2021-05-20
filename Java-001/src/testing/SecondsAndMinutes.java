@@ -25,7 +25,7 @@ public class SecondsAndMinutes {
 		 if (seconds >= 0) {
 			 int newMinutes = seconds / 60;
 			 int newSeconds = seconds % 60;
-			 getDurationString(newMinutes, newSeconds);
+			 return getDurationString(newMinutes, newSeconds);
 			 
 		 }
 		 

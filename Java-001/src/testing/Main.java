@@ -13,7 +13,11 @@ public class Main {
 //		MethodOverloading.calculateScore();
 		
 		// seconds and minutes
-		SecondsAndMinutes.getDurationString(3600);
+//		SecondsAndMinutes.getDurationString(2139, 5);
+//		SecondsAndMinutes.getDurationString(232525);
+		
+		//switch practice
+		SwitchStatementOne.switchChallenge('C');
 		
 	}
 
