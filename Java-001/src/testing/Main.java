@@ -17,8 +17,11 @@ public class Main {
 //		SecondsAndMinutes.getDurationString(232525);
 		
 		//switch practice
-		SwitchStatementOne.switchChallenge('C');
+//		SwitchStatementOne.switchChallenge('C');
 		
+		//for loop practice
+//		ForLoop.sumThreeFive();
+		System.out.println(ForLoop.sumOdd(1, 11));
 	}
 
 }
