@@ -23,38 +23,55 @@ public class Main {
 //		ForLoop.sumThreeFive();
 //		System.out.println(ForLoop.sumOdd(1, 11));
 		
-		//classes practice with getters and setters
-//		Dog lucy = new Dog();
-//		
-//		lucy.setName("Lucy");
-//		System.out.println(lucy.getName());
 		
 		//getter and setter bank practice
-		BankAccount first = new BankAccount(1, 0.00, "First Customer", "first@first.com", 1111111111);
+//		BankAccount first = new BankAccount(1, 0.00, "First Customer", "first@first.com", 1111111111);
+//		
+//		
+//		System.out.println(first.getAccountNumber());
+//		
+//		
+//		System.out.println(first.getBalance());
+//		
+//		
+//		System.out.println(first.getCustomerName());
+//		
+//		
+//		System.out.println(first.getEmail());
+//		
+//		
+//		System.out.println(first.getPhoneNumber());
+//		
+//		first.deposit(5.00);
+//		
+//		System.out.println(first.getBalance());
+//		
+//		 first.withdraw(4.00);
+//		 
+//		 System.out.println(first.getBalance());
 		
 		
-		System.out.println(first.getAccountNumber());
+		// constructor practice
 		
+//		VipCustomer one = new VipCustomer();
+//		System.out.println(one.getCreditLimit());
+//		
+//		VipCustomer two = new VipCustomer("Bob", 5000);
+//		System.out.println(two.getCreditLimit());
+//		
+//		VipCustomer three = new VipCustomer("tim", 100, "tim@email");
+//		System.out.println(three.getCreditLimit());
 		
-		System.out.println(first.getBalance());
+		// inheratance 
+		Animal animal = new Animal( "Animal", 1, 1, 5, 5);
 		
+		Dog dog = new Dog("yorkie", 8, 20, 2, 4, 1, 20, "long");
 		
-		System.out.println(first.getCustomerName());
+
 		
-		
-		System.out.println(first.getEmail());
-		
-		
-		System.out.println(first.getPhoneNumber());
-		
-		first.deposit(5.00);
-		
-		System.out.println(first.getBalance());
-		
-		 first.withdraw(4.00);
-		 
-		 System.out.println(first.getBalance());
-		
+		dog.walk();
+		dog.run();
+//		
 	}
 
 }
