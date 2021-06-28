@@ -30,25 +30,20 @@ public class Main {
 //		System.out.println(lucy.getName());
 		
 		//getter and setter bank practice
-		BankAccount first = new BankAccount();
+		BankAccount first = new BankAccount(1, 0.00, "First Customer", "first@first.com", 1111111111);
 		
-		first.setAccountNumber(1);
 		
 		System.out.println(first.getAccountNumber());
 		
-		first.setBalance(0.00);
 		
 		System.out.println(first.getBalance());
 		
-		first.setCustomerName("First Customer");
 		
 		System.out.println(first.getCustomerName());
 		
-		first.setEmail("first@first.com");
 		
 		System.out.println(first.getEmail());
 		
-		first.setPhoneNumber(1111111111);
 		
 		System.out.println(first.getPhoneNumber());
 		
