@@ -21,7 +21,45 @@ public class Main {
 		
 		//for loop practice
 //		ForLoop.sumThreeFive();
-		System.out.println(ForLoop.sumOdd(1, 11));
+//		System.out.println(ForLoop.sumOdd(1, 11));
+		
+		//classes practice with getters and setters
+//		Dog lucy = new Dog();
+//		
+//		lucy.setName("Lucy");
+//		System.out.println(lucy.getName());
+		
+		//getter and setter bank practice
+		BankAccount first = new BankAccount();
+		
+		first.setAccountNumber(1);
+		
+		System.out.println(first.getAccountNumber());
+		
+		first.setBalance(0.00);
+		
+		System.out.println(first.getBalance());
+		
+		first.setCustomerName("First Customer");
+		
+		System.out.println(first.getCustomerName());
+		
+		first.setEmail("first@first.com");
+		
+		System.out.println(first.getEmail());
+		
+		first.setPhoneNumber(1111111111);
+		
+		System.out.println(first.getPhoneNumber());
+		
+		first.deposit(5.00);
+		
+		System.out.println(first.getBalance());
+		
+		 first.withdraw(4.00);
+		 
+		 System.out.println(first.getBalance());
+		
 	}
 
 }
