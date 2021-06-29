@@ -63,15 +63,21 @@ public class Main {
 //		System.out.println(three.getCreditLimit());
 		
 		// inheratance 
-		Animal animal = new Animal( "Animal", 1, 1, 5, 5);
-		
-		Dog dog = new Dog("yorkie", 8, 20, 2, 4, 1, 20, "long");
-		
-
-		
-		dog.walk();
-		dog.run();
+//		Animal animal = new Animal( "Animal", 1, 1, 5, 5);
 //		
+//		Dog dog = new Dog("yorkie", 8, 20, 2, 4, 1, 20, "long");
+//		
+//
+//		
+//		dog.walk();
+//		dog.run();
+//		
+		Honda civic = new Honda(36);
+		civic.steer(45);
+		civic.accelerate(30);
+		civic.accelerate(20);
+		civic.accelerate(-42);
+		
 	}
 
 }
