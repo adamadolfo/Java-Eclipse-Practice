@@ -16,6 +16,7 @@ public class Movie {
 		return this.ticketsLeft;
 	}
 	
+	// override practice
 	public void buyTicket() {
 		if (getTicketsLeft() > 0) {
 			this.ticketsLeft = getTicketsLeft() - 1;
