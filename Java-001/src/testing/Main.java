@@ -4,12 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Movie horror = new HorrorMovie(10, 130, "director 1");
+		Printer printer = new Printer(50, true);
 		
-		horror.buyTicket();
-		horror.buyTicket();horror.buyTicket();horror.buyTicket();horror.buyTicket();horror.buyTicket();
-		
-		
+		System.out.println(printer.getPagesPrinted());
+		printer.printPage(11);
+		System.out.println(printer.getPagesPrinted());
 	}
 
 }
